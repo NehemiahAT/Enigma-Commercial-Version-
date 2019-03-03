@@ -16,7 +16,7 @@ document.getElementById("wKey").onclick = function() {PressedWKey();};
 document.getElementById("eKey").onclick = function() {PressedEKey();};
  
 document.getElementById("rKey").onclick = function() {PressedRKey();};
- ;
+
 document.getElementById("tKey").onclick = function() {PressedTKey();};
  
 document.getElementById("yKey").onclick = function() {PressedYKey();};
