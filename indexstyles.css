@@ -1,16 +1,5 @@
-.key {
-  background-color: #000000;
-  border-style: solid;
-  border-color: #c0c0c0;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  font-family:monospace;
-  margin: 4px 2px;
-  cursor: pointer; 
-  border-radius: 50%;
+.keyboard {
+ text-align: center; 
 }
 
 .crypt-key {
@@ -24,6 +13,17 @@
  border-radius: 50%;
 }
 
-.keyboard {
- text-align: center; 
+.key {
+  background-color: #000000;
+  border-style: solid;
+  border-color: #c0c0c0;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family:monospace;
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 50%;
 }
