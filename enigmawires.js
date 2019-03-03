@@ -1,4 +1,4 @@
-(function enigma() {
+(function () {
  "use strict";
  
 var userInput; 
@@ -218,5 +218,3 @@ function PressedWKey() {
 }
 
  }());
-
-enigma();
