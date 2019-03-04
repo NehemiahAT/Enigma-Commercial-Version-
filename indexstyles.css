@@ -1,5 +1,9 @@
+body {
+  background-color: #000000;
+}
+
 .keyboard {
- text-align: center; 
+ text-align: center;
 }
 
 .crypt-key {
@@ -8,7 +12,8 @@
  padding: 20px;
  text-align: center;
  display: inline-block;
- font-size: 16px;
+ font-size: 16px;  
+ font-family:monospace;
  margin: 4px 2px;
  border-radius: 50%;
 }
@@ -24,6 +29,6 @@
   font-size: 16px;
   font-family:monospace;
   margin: 4px 2px;
-  cursor: pointer; 
+  cursor: pointer;
   border-radius: 50%;
 }
