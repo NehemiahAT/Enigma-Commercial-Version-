@@ -216,5 +216,34 @@ function PressedWKey() {
  userInput = "M";
  
 }
+ 
+/* Debug mode code */
+ 
+var debugModeOn;
+ 
+document.getElementById("debug-mode-on").onclick = function() {turnDebugModeOn();};
+ 
+function turnDebugModeOn() {
+ 
+debugModeOn = true;
+ 
+}
+ 
+/* Date and time finder */
+ 
+var date = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+ 
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+ 
+var dateTime = date + " " + time;
+ 
+/* End of date and time finder */ 
+
+ 
+while (debugModeOn = true && userInput != "") {
+   console.log("User Input: " + userInput + "; Rotor One Setting: " + rotorOneSetting + "; Rotor Two Setting: " + rotorTwoSetting + "; Rotor Three Setting: " + rotorThreeSetting + "; Date and Time: " + dateTime);  
+    }
+ 
+ /* End of debug mode code */
 
  }());
