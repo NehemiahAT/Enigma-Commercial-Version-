@@ -1,3 +1,4 @@
+/* Note: if this code is being used in inline JavaScript or in a <script> tag, use the CDATA block */
 (function () {
  "use strict";
  
@@ -240,7 +241,7 @@ var dateTime = date + " " + time;
 /* End of date and time finder */ 
 
  
-while (debugModeOn = true && userInput != "") {
+if (debugModeOn = true && userInput != "") {
    console.log("User Input: " + userInput + "; Rotor One Setting: " + rotorOneSetting + "; Rotor Two Setting: " + rotorTwoSetting + "; Rotor Three Setting: " + rotorThreeSetting + "; Date and Time: " + dateTime);  
     }
  
