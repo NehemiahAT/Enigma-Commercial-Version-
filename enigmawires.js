@@ -62,10 +62,12 @@ document.getElementById("nKey").onclick = function() {PressedNKey();};
  
 document.getElementById("mKey").onclick = function() {PressedMKey();};
  
-document.getElementByClassName("key").onclick = function() {PressedSomeKey();};
+document.getElementsByClassName("key").onclick = function() {PressedSomeKey();};
  
  
-function PressedQKey() {
+/* Change letters to numbers. */
+ 
+ function PressedQKey() {
 
  userInput = "Q";
  
@@ -234,11 +236,11 @@ function PressedWKey() {
  
  /* Add more code in this function. Feed userInput into rotorOneSetting, changing it according to the setting. 
  * Then change that result by feeding it into rotorTwoSetting, then feed that result into rotorThreeSetting;
- * the result from rotorThreeSetting will then change the color of the corresponding key to the result 
- * on the crypt keyboard to #ffff00. */ 
+ * repeat the process backwords. The final result will then change the color of the corresponding key to the 
+ * result on the crypt keyboard to #ffff00. */ 
 }
  
-/* Debug mode code */
+/* Debug mode code. This was not part of the original Enigma Machine. */
  
 var debugModeOn;
  
