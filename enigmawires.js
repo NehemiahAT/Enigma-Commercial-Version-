@@ -60,7 +60,9 @@ document.getElementById("bKey").onclick = function() {PressedBKey();};
  
 document.getElementById("nKey").onclick = function() {PressedNKey();};
  
-document.getElementById("mkey").onclick = function() {PressedMKey();};
+document.getElementById("mKey").onclick = function() {PressedMKey();};
+ 
+document.getElementByClassName("key").onclick = function() {PressedSomeKey();};
  
  
 function PressedQKey() {
@@ -216,6 +218,24 @@ function PressedWKey() {
 
  userInput = "M";
  
+}
+ 
+/* This function will encrypt the messages. */
+ 
+ function PressedSomeKey() {
+ 
+ userInput;
+ 
+ rotorOneSetting;
+ 
+ rotorTwoSetting;
+ 
+ rotorThreeSetting;
+ 
+ /* Add more code in this function. Feed userInput into rotorOneSetting, changing it according to the setting. 
+ * Then change that result by feeding it into rotorTwoSetting, then feed that result into rotorThreeSetting;
+ * the result from rotorThreeSetting will then change the color of the corresponding key to the result 
+ * on the crypt keyboard to #ffff00. */ 
 }
  
 /* Debug mode code */
