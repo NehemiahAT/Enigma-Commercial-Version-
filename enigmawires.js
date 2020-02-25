@@ -73,156 +73,156 @@ document.getElementsByClassName("key").onclick = function() {PressedSomeKey();};
  
  function PressedQKey() {
 
- userInput = "Q";
- 
+ userInput = "17";
+  
 }
  
 function PressedWKey() {
 
- userInput = "W";
+ userInput = "23";
  
 }
  
  function PressedEKey() {
 
- userInput = "E";
+ userInput = "5";
  
 }
  
  function PressedRKey() {
 
- userInput = "R";
+ userInput = "18";
  
 }
  
  function PressedTKey() {
 
- userInput = "T";
+ userInput = "20";
  
 }
  
  function PressedYKey() {
 
- userInput = "Y";
+ userInput = "25";
  
 }
  
  function PressedUKey() {
 
- userInput = "U";
+ userInput = "21";
  
 }
  
  function PressedIKey() {
 
- userInput = "I";
+ userInput = "9";
  
 }
  
  function PressedOKey() {
 
- userInput = "O";
+ userInput = "15";
  
 }
  
  function PressedPKey() {
 
- userInput = "P";
+ userInput = "16";
  
 }
  
  function PressedAKey() {
- userInput = "A";
+ userInput = "1";
  
 }
  
  function PressedSKey() {
 
- userInput = "S";
+ userInput = "19";
  
 }
  
  function PressedDKey() {
 
- userInput = "D";
+ userInput = "4";
  
 }
  
  function PressedFKey() {
 
- userInput = "F";
+ userInput = "6";
  
 }
  
  function PressedGKey() {
 
- userInput = "G";
+ userInput = "7";
  
 }
  
  function PressedHKey() {
 
- userInput = "H";
+ userInput = "8";
  
 }
  
  function PressedJKey() {
 
- userInput = "J";
+ userInput = "10";
  
 }
  
  function PressedKKey() {
 
- userInput = "K";
+ userInput = "11";
  
 }
  
  function PressedLKey() {
 
- userInput = "L";
+ userInput = "12";
  
 }
  
  function PressedZKey() {
 
- userInput = "Z";
+ userInput = "26";
  
 }
  
  function PressedXKey() {
 
- userInput = "X";
+ userInput = "24";
  
 }
  
  function PressedCKey() {
 
- userInput = "C";
+ userInput = "3";
  
 }
  
  function PressedVKey() {
 
- userInput = "V";
+ userInput = "22";
  
 }
  
  function PressedBKey() {
 
- userInput = "B";
+ userInput = "2";
  
 }
  
  function PressedNKey() {
 
- userInput = "N";
+ userInput = "14";
  
 }
  
  function PressedMKey() {
 
- userInput = "M";
+ userInput = "13";
  
 }
  
