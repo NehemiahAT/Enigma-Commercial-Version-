@@ -2,7 +2,11 @@
 (function () {
  "use strict";
  
-var userInput; 
+var userInput;
+ 
+var rawOutput;
+ 
+var output;
  
 var rotorOneSetting = document.getElementById("rotorOne").value; 
  
