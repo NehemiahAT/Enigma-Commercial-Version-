@@ -8,11 +8,25 @@ var rawOutput;
  
 var output;
  
+var keyPressed;
+ 
 var rotorOneSetting = document.getElementById("rotorOne").value; 
  
 var rotorTwoSetting = document.getElementById("rotorTwo").value; 
 
 var rotorThreeSetting = document.getElementById("rotorThree").value;
+ 
+var rotorOneResult;
+ 
+var rotorTwoResult;
+ 
+var rotorThreeResult;
+ 
+var rotorOneResultBackwards;
+ 
+var rotorTwoResultBackwards;
+ 
+var rotorThreeResultBackwards;
  
 document.getElementById("qKey").onclick = function() {PressedQKey();};
  
@@ -74,6 +88,8 @@ document.getElementsByClassName("key").onclick = function() {PressedSomeKey();};
  function PressedQKey() {
 
  userInput = "17";
+ 
+ keyPressed = true; 
   
 }
  
@@ -81,70 +97,95 @@ function PressedWKey() {
 
  userInput = "23";
  
+ keyPressed = true;
+ 
 }
  
  function PressedEKey() {
 
  userInput = "5";
  
+ keyPressed = true;
+  
 }
  
  function PressedRKey() {
 
  userInput = "18";
+  
+ keyPressed = true;
  
 }
  
  function PressedTKey() {
 
- userInput = "20";
+userInput = "20";
+ 
+keyPressed = true;
  
 }
  
  function PressedYKey() {
 
  userInput = "25";
+  
+ keyPressed = true;
  
 }
  
  function PressedUKey() {
 
  userInput = "21";
+  
+ keyPressed = true;
  
 }
  
  function PressedIKey() {
 
  userInput = "9";
+  
+ keyPressed = true;
  
 }
  
  function PressedOKey() {
 
  userInput = "15";
+  
+ keyPressed = true;
  
 }
  
  function PressedPKey() {
 
  userInput = "16";
+  
+ keyPressed = true;
  
 }
  
  function PressedAKey() {
+ 
  userInput = "1";
+  
+ keyPressed = true;
  
 }
  
  function PressedSKey() {
 
  userInput = "19";
+  
+ keyPressed = true;
  
 }
  
  function PressedDKey() {
 
  userInput = "4";
+  
+ keyPressed = true;
  
 }
  
@@ -152,77 +193,103 @@ function PressedWKey() {
 
  userInput = "6";
  
+ keyPressed = true;
+  
 }
  
  function PressedGKey() {
 
  userInput = "7";
  
+ keyPressed = true;
+  
 }
  
  function PressedHKey() {
 
  userInput = "8";
+  
+ keyPressed = true;
  
 }
  
  function PressedJKey() {
 
  userInput = "10";
+  
+ keyPressed = true;
  
 }
  
  function PressedKKey() {
 
  userInput = "11";
+  
+ keyPressed = true;
  
 }
  
  function PressedLKey() {
 
  userInput = "12";
+  
+ keyPressed = true;
  
 }
  
  function PressedZKey() {
 
  userInput = "26";
+  
+ keyPressed = true;
  
 }
  
  function PressedXKey() {
 
  userInput = "24";
+  
+ keyPressed = true;
  
 }
  
  function PressedCKey() {
 
  userInput = "3";
+  
+ keyPressed = true;
  
 }
  
  function PressedVKey() {
 
  userInput = "22";
+  
+ keyPressed = true;
  
 }
  
  function PressedBKey() {
 
  userInput = "2";
+  
+ keyPressed = true;
  
 }
  
  function PressedNKey() {
 
  userInput = "14";
+  
+ keyPressed = true;
  
 }
  
  function PressedMKey() {
 
  userInput = "13";
+  
+ keyPressed = true;
  
 }
  
@@ -230,18 +297,22 @@ function PressedWKey() {
  
  function PressedSomeKey() {
  
- userInput;
+ rotorOneResult = userInput + rotorOneSetting;
+  
+ rotorOneSetting++;
+  
+ rotorTwoResult = rotorOneResult + rotorTwoSetting;
+  
+ rotorThreeResult = rotorTwoResult + rotorThreeSetting; 
+  
+ rotorThreeResultBackwards = rotorTwoResultBackwards + rotorThreeSetting;
+  
+ rotorTwoResultBackwards = rotorOneResultBackwards + rotorTwoSetting; 
+  
+ rotorOneResultBackwards = rotorThreeResult + rotorOneSetting;
+  
+ keyPressed = false;
  
- rotorOneSetting;
- 
- rotorTwoSetting;
- 
- rotorThreeSetting;
- 
- /* Add more code in this function. Feed userInput into rotorOneSetting, changing it according to the setting. 
- * Then change that result by feeding it into rotorTwoSetting, then feed that result into rotorThreeSetting;
- * repeat the process backwords. The final result will then change the color of the corresponding key to the 
- * result on the crypt keyboard to #ffff00. */ 
 }
  
 /* Debug mode code. This was not part of the original Enigma Machine. */
