@@ -3,9 +3,7 @@
  "use strict";
  
 var userInput;
- 
-var rawOutput;
- 
+  
 var output;
  
 var keyPressed;
