@@ -78,7 +78,7 @@ document.getElementById("nKey").onclick = function() {PressedNKey();};
  
 document.getElementById("mKey").onclick = function() {PressedMKey();};
  
-document.getElementsByClassName("key").onclick = function() {PressedSomeKey();};
+document.getElementsByClassName("key").childNodes.onclick = function() {PressedSomeKey();};
  
  
 /* Change letters to numbers. */
