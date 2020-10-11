@@ -336,7 +336,7 @@ var dateTime = date + " " + time;
 /* End of date and time finder */ 
 
  
-if (debugModeOn === true && userInput != "") {
+if (debugModeOn === true && userInput !== null) {
    console.log("User Input: " + userInput + "; Rotor One Setting: " + rotorOneSetting + "; Rotor Two Setting: " + rotorTwoSetting + "; Rotor Three Setting: " + rotorThreeSetting + "; Date and Time: " + dateTime);  
     }
  
