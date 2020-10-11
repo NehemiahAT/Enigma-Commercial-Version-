@@ -313,7 +313,7 @@ keyPressed = true;
  
 }
  
-/* Debug mode code. This was not part of the original Enigma Machine. */
+/* Debug mode code. This was obviously not part of the original Enigma Machine. */
  
 var debugModeOn;
  
