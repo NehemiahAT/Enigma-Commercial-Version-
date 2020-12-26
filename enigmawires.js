@@ -85,7 +85,7 @@ document.getElementsByClassName("key").childNodes.onclick = function() {PressedS
  
  function PressedQKey() {
 
- userInput = "17";
+ userInput = 17;
  
  keyPressed = true; 
   
