@@ -78,7 +78,7 @@ document.getElementById("nKey").onclick = function() {PressedNKey();};
  
 document.getElementById("mKey").onclick = function() {PressedMKey();};
  
-document.getElementsByClassName("key").childNodes.onclick = function() {PressedSomeKey();};
+document.getElementsByClassName("key").childNodes.onclick = function() {pressedSomeKey();};
  
  
 /* Change letters from input to the numbers they are in the alphabet. */
