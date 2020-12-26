@@ -81,7 +81,7 @@ document.getElementById("mKey").onclick = function() {PressedMKey();};
 document.getElementsByClassName("key").childNodes.onclick = function() {PressedSomeKey();};
  
  
-/* Change letters to numbers. */
+/* Change letters from input to the numbers they are in the alphabet. */
  
  function PressedQKey() {
 
@@ -291,27 +291,51 @@ keyPressed = true;
  
 }
  
-/* This function will encrypt the messages. */
+/* This function will encrypt the input letter. */
  
- function PressedSomeKey() {
+ function pressedSomeKey() {
  
  rotorOneResult = userInput + rotorOneSetting;
   
- rotorOneSetting++;
+ r1sPlusPlus();
   
  rotorTwoResult = rotorOneResult + rotorTwoSetting;
   
- rotorThreeResult = rotorTwoResult + rotorThreeSetting; 
+ r2sPlusPlus();
+  
+ rotorThreeResult = rotorTwoResult + rotorThreeSetting;
+  
+ r3sPlusPlus();
   
  rotorThreeResultBackwards = rotorTwoResultBackwards + rotorThreeSetting;
   
- rotorTwoResultBackwards = rotorOneResultBackwards + rotorTwoSetting; 
+ r3sPlusPlus();
+  
+ rotorTwoResultBackwards = rotorOneResultBackwards + rotorTwoSetting;
+  
+ r2sPlusPlus();
   
  rotorOneResultBackwards = rotorThreeResult + rotorOneSetting;
+  
+ r1sPlusPlus();
+  
+ output = rotorOneResultBackwards;
   
  keyPressed = false;
  
 }
+ 
+ function r1sPlusPlus() {rotorOneSetting++; 
+                         
+  document.getElementById("rotorOne").value = rotorOneSetting;}
+ 
+ function r2sPlusPlus() {rotorTwoSetting++; 
+                         
+  document.getElementById("rotorTwo").value = rotorTwoSetting;}
+ 
+ function r3sPlusPlus() {rotorThreeSetting++; 
+                         
+  document.getElementById("rotorThree").value = rotorThreeSetting;}
  
 /* Debug mode code. This was obviously not part of the original Enigma Machine. */
  
