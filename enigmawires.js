@@ -93,7 +93,7 @@ document.getElementsByClassName("key").childNodes.onclick = function() {PressedS
  
 function PressedWKey() {
 
- userInput = "23";
+ userInput = 23;
  
  keyPressed = true;
  
@@ -101,7 +101,7 @@ function PressedWKey() {
  
  function PressedEKey() {
 
- userInput = "5";
+ userInput = 5;
  
  keyPressed = true;
   
@@ -109,7 +109,7 @@ function PressedWKey() {
  
  function PressedRKey() {
 
- userInput = "18";
+ userInput = 18;
   
  keyPressed = true;
  
@@ -117,7 +117,7 @@ function PressedWKey() {
  
  function PressedTKey() {
 
-userInput = "20";
+userInput = 20;
  
 keyPressed = true;
  
@@ -125,7 +125,7 @@ keyPressed = true;
  
  function PressedYKey() {
 
- userInput = "25";
+ userInput = 25;
   
  keyPressed = true;
  
@@ -133,7 +133,7 @@ keyPressed = true;
  
  function PressedUKey() {
 
- userInput = "21";
+ userInput = 21;
   
  keyPressed = true;
  
@@ -141,7 +141,7 @@ keyPressed = true;
  
  function PressedIKey() {
 
- userInput = "9";
+ userInput = 9;
   
  keyPressed = true;
  
@@ -149,7 +149,7 @@ keyPressed = true;
  
  function PressedOKey() {
 
- userInput = "15";
+ userInput = 15;
   
  keyPressed = true;
  
@@ -157,7 +157,7 @@ keyPressed = true;
  
  function PressedPKey() {
 
- userInput = "16";
+ userInput = 16;
   
  keyPressed = true;
  
@@ -165,7 +165,7 @@ keyPressed = true;
  
  function PressedAKey() {
  
- userInput = "1";
+ userInput = 1;
   
  keyPressed = true;
  
@@ -173,7 +173,7 @@ keyPressed = true;
  
  function PressedSKey() {
 
- userInput = "19";
+ userInput = 19;
   
  keyPressed = true;
  
@@ -181,7 +181,7 @@ keyPressed = true;
  
  function PressedDKey() {
 
- userInput = "4";
+ userInput = 4;
   
  keyPressed = true;
  
@@ -189,7 +189,7 @@ keyPressed = true;
  
  function PressedFKey() {
 
- userInput = "6";
+ userInput = 6;
  
  keyPressed = true;
   
@@ -197,7 +197,7 @@ keyPressed = true;
  
  function PressedGKey() {
 
- userInput = "7";
+ userInput = 7;
  
  keyPressed = true;
   
@@ -205,7 +205,7 @@ keyPressed = true;
  
  function PressedHKey() {
 
- userInput = "8";
+ userInput = 8;
   
  keyPressed = true;
  
@@ -213,7 +213,7 @@ keyPressed = true;
  
  function PressedJKey() {
 
- userInput = "10";
+ userInput = 10;
   
  keyPressed = true;
  
@@ -221,7 +221,7 @@ keyPressed = true;
  
  function PressedKKey() {
 
- userInput = "11";
+ userInput = 11;
   
  keyPressed = true;
  
@@ -229,7 +229,7 @@ keyPressed = true;
  
  function PressedLKey() {
 
- userInput = "12";
+ userInput = 12;
   
  keyPressed = true;
  
@@ -237,7 +237,7 @@ keyPressed = true;
  
  function PressedZKey() {
 
- userInput = "26";
+ userInput = 26;
   
  keyPressed = true;
  
@@ -245,7 +245,7 @@ keyPressed = true;
  
  function PressedXKey() {
 
- userInput = "24";
+ userInput = 24;
   
  keyPressed = true;
  
@@ -253,7 +253,7 @@ keyPressed = true;
  
  function PressedCKey() {
 
- userInput = "3";
+ userInput = 3;
   
  keyPressed = true;
  
@@ -261,7 +261,7 @@ keyPressed = true;
  
  function PressedVKey() {
 
- userInput = "22";
+ userInput = 22;
   
  keyPressed = true;
  
@@ -269,7 +269,7 @@ keyPressed = true;
  
  function PressedBKey() {
 
- userInput = "2";
+ userInput = 2;
   
  keyPressed = true;
  
@@ -277,7 +277,7 @@ keyPressed = true;
  
  function PressedNKey() {
 
- userInput = "14";
+ userInput = 14;
   
  keyPressed = true;
  
@@ -285,7 +285,7 @@ keyPressed = true;
  
  function PressedMKey() {
 
- userInput = "13";
+ userInput = 13;
   
  keyPressed = true;
  
